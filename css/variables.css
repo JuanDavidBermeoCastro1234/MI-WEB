@@ -1,7 +1,10 @@
 
 :root{
-    --color-1: #FFFFFF;
-    --color-1: #FFFFFF;
+    --font-color-1: #eee;
+    --color-gradient-1: #376e4014;
+    --color-gradient-2: #071917;
+    --banner-1: url(/storage/img/Rectangle1.png);
+
 }
 
 @font-face {
