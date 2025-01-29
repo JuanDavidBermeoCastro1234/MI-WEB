@@ -57,7 +57,7 @@
 .article__home {
     width: 626px;
     height: 360px;
-    position: relative;
+    position: absolute;
     left: 22svw;
     top: 36svh;
     display: flex;
@@ -89,14 +89,16 @@
 }
 
 .section_2 {
+    /* position: absolute; */
     background-color: #081A17;/*, url(../storage/im/Rectangle\ 2.png);*/
     display: flex;
+    /* background-size: cover; */
     justify-content: center;
+    width: 100vw;
+    height: 140vh;
 
     /* background-image: url(../storage/img/Rectangle\ 2.png); */
     .img2{
-
-    
     background-size: cover;
     padding-top: 40px;/*arriba*/
     padding-bottom:20px;/*abajo*/
@@ -104,6 +106,17 @@
     width: 95vw;
     height: 140vh;
 
+    }
+    
+    .text{
+        position: absolute;
+        top: px;
+        left: 100px;
+        /* transform: translate(-50%, -50%); */
+        color: white;
+        border-radius: 10px;
+        text-align: center;
+        
     }
 
 }
