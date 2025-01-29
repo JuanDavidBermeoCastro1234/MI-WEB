@@ -7,7 +7,7 @@
     outline: 2px solid tomato;
 }
 
-
+/*****************encabezado****************/
 .header {
     display: flex; /* Aplica el modelo de diseño Flexbox para los elementos hijos */
     justify-content: space-between; /* Distribuye el espacio entre los elementos hijos, dejando el máximo espacio posible */
@@ -41,6 +41,7 @@
     font-size: 17px;
 }
 
+/************body of the web site*******************/
 /* .main {
     background-color: blue;
 } */
@@ -80,6 +81,9 @@
     font-family: "Montserrat-SemiBold";
 }
 
+
+
+/***********buttom of the web page************/
 .section__icon {
 
     background-color: #071917;
@@ -88,8 +92,10 @@
 
 }
 
+
+/*************section at the  more buttom of the web site**********************/
 .section_2 {
-    /* position: absolute; */
+    position: relative;
     background-color: #081A17;/*, url(../storage/im/Rectangle\ 2.png);*/
     display: flex;
     /* background-size: cover; */
@@ -109,15 +115,115 @@
     }
     
     .text{
+        width: 626px;
+        height: 360px;
         position: absolute;
-        top: px;
-        left: 100px;
+        left: 22svw;
+        top: 36svh;
         /* transform: translate(-50%, -50%); */
-        color: white;
+        display: flex;
+        gap: 15px;
+        color: var(--color-1);
         border-radius: 10px;
         text-align: center;
+    }
+
+    .text h1 {
+        font-size: 75px;
+        font-family: "Montserrat-Medium";
         
     }
 
 }
 
+/****************mobile version*********************/
+
+@media (max-width: 960px) {
+
+        .header {
+            /* background:red ; */
+            padding: 15px;
+        }
+
+        .ul__menu {
+            gap: 15px;
+            padding-right: 15px;
+        }
+
+        .section__home{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .article__home{
+            left: 0;
+        }
+
+        .article__home span{
+            /*nada*/
+        }
+
+        .article__home h1 {
+            font-size: 70px;
+        }
+
+        .article__home p{
+            /*nada*/
+        }
+
+        .section__icon{
+            justify-content: space-around;
+        }
+
+        .section__icon img{
+            width: 45px;
+            height: 45px;
+            object-fit: contain;
+        }
+
+}
+
+/****movil horizontal***/
+
+
+@media (max-width: 576px) {
+    .header{
+        background: blue;
+        justify-content: normal;
+    }
+
+    .div__logo{
+        flex: 1;
+    }
+
+    .div__menu{
+        width: 100%;
+    }
+
+    .ul__menu{
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .article__home{
+        top: 25svh;
+    }
+
+    .article__home h1{
+        font-size: 60px;
+        /* width: 100%;
+        padding: 10px; */
+
+    }
+
+    .section__home{
+        display: flex;
+        justify-content: normal;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 95svh;
+    }
+    
+
+}
