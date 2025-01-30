@@ -46,6 +46,8 @@
 
 /********** main ******************/
 .main {
+    background: #071917;
+
     /* background: red; */
     /* padding: 20px; */
 }
@@ -97,19 +99,22 @@
     background: violet; */
 
 
-.section_about {
-    background-color: #071917;
-    background-image: var(--banner-2);    
+.section__about {
+    padding-top: 60px;
     display: flex;
-    width: 99vw;
+    justify-content: center;
+    width: 1400px;
     height: 100vh;
 }
 
 .img2{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    }
+    width: 1394px;
+}
+
+.txt2{
+    position: absolute;
+    color:var(--font-color-1);
+}
 
 
 
