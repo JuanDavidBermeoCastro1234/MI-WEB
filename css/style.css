@@ -168,7 +168,7 @@
     position: relative;
 }
 
-.img3 {
+.img4 {
     display: flex;
     justify-content: center;  /* Centra horizontalmente */
     position: relative;
@@ -188,7 +188,7 @@
     font-size:45px;
     display: flex;
     left: 7svw;
-    top:870px;
+    top:890px;
 }
 
 
