@@ -87,7 +87,7 @@
     width: 340px;
     font-family: "Montserrat-Medium";
 }
-/************* section menu **********************/
+/*************footer of the first part**********************/
 
 .section__icon{
     background: #071917;
@@ -98,26 +98,98 @@
 /* .section__icon img{
     background: violet; */
 
+/**********image of second part***************/
+    .section_2{
+        height: 120svh;
+        background-color: var(--color-gradient-2);
+        position: relative;
+    }
+    
+    .imgsect2 {
+        display: flex;
+        justify-content: center;  /* Centra horizontalmente */
+        position: relative;
+        top: 70px;
+    
+        img{
+            width: 96svw;
+            height: 110svh;
+            
+        }
+    }
+    .txt2{
+        /* background: red; */
+        position: absolute;
+        font-family: "Montserrat-SemiBold";
+        color: var(--font-color-1);
+        font-size:45px;
+        display: flex;
+        left: 7svw;
+        top:1005px;
+        
+    }
 
-.section__about {
-    padding-top: 60px;
+/*********image of third part**********/
+
+.section_3{
+    height: 113svh;
+    background-color: var(--color-gradient-2);
+    position: relative;
+}
+
+.img3 {
     display: flex;
-    justify-content: center;
-    width: 1400px;
-    height: 100vh;
-}
+    justify-content: center;  /* Centra horizontalmente */
+    position: relative;
+    top: 0px;
 
-.img2{
-    width: 1394px;
+    img{
+        width: 96svw;
+        height: 110svh;
+        
+    }
 }
-
-.txt2{
+.txt3{
+    /* background: red; */
     position: absolute;
-    color:var(--font-color-1);
+    font-family: "Montserrat-SemiBold";
+    color: var(--font-color-1);
+    font-size:45px;
+    display: flex;
+    left: 7svw;
+    top:870px;
+}
+    
+/******image of third four*******/
+
+.section_4{
+    height: 122svh;
+    background-color: var(--color-gradient-2);
+    position: relative;
 }
 
+.img3 {
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    position: relative;
+    top: 0px;
 
-
+    img{
+        width: 96svw;
+        height: 110svh;
+        
+    }
+}
+.txt4{
+    /* background: red; */
+    position: absolute;
+    font-family: "Montserrat-SemiBold";
+    color: var(--font-color-1);
+    font-size:45px;
+    display: flex;
+    left: 7svw;
+    top:870px;
+}
 
 
 
