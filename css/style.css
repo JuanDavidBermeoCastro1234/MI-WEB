@@ -93,105 +93,23 @@
     background: #071917;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 /* .section__icon img{
     background: violet; */
 
-/**********image of second part***************/
-    .section_2{
-        height: 120svh;
-        background-color: var(--color-gradient-2);
-        position: relative;
-    }
+/*************section two************/
+
+.div_image-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos hijos en una columna vertical */
+    align-items:center;
+}
+.section_imagen1{
     
-    .imgsect2 {
-        display: flex;
-        justify-content: center;  /* Centra horizontalmente */
-        position: relative;
-        top: 70px;
-    
-        img{
-            width: 96svw;
-            height: 110svh;
-            
-        }
-    }
-    .txt2{
-        /* background: red; */
-        position: absolute;
-        font-family: "Montserrat-SemiBold";
-        color: var(--font-color-1);
-        font-size:45px;
-        display: flex;
-        left: 7svw;
-        top:1005px;
-        
-    }
-
-/*********image of third part**********/
-
-.section_3{
-    height: 113svh;
-    background-color: var(--color-gradient-2);
-    position: relative;
 }
-
-.img3 {
-    display: flex;
-    justify-content: center;  /* Centra horizontalmente */
-    position: relative;
-    top: 0px;
-
-    img{
-        width: 96svw;
-        height: 110svh;
-        
-    }
-}
-.txt3{
-    /* background: red; */
-    position: absolute;
-    font-family: "Montserrat-SemiBold";
-    color: var(--font-color-1);
-    font-size:45px;
-    display: flex;
-    left: 7svw;
-    top:870px;
-}
-    
-/******image of third four*******/
-
-.section_4{
-    height: 122svh;
-    background-color: var(--color-gradient-2);
-    position: relative;
-}
-
-.img4 {
-    display: flex;
-    justify-content: center;  /* Centra horizontalmente */
-    position: relative;
-    top: 0px;
-
-    img{
-        width: 96svw;
-        height: 110svh;
-        
-    }
-}
-.txt4{
-    /* background: red; */
-    position: absolute;
-    font-family: "Montserrat-SemiBold";
-    color: var(--font-color-1);
-    font-size:45px;
-    display: flex;
-    left: 7svw;
-    top:890px;
-}
-
-
 
 /************** version movil **********************/
 @media (max-width: 960px) {
@@ -227,6 +145,7 @@
         height: 45px;
         object-fit: contain;
     }
+    
 }
 
 @media (max-width: 576px) {
