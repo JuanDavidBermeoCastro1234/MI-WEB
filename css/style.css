@@ -134,6 +134,63 @@
 
 }
 
+.section_imagen2{
+    display: flex;
+    /* margin-top: 5.86vh; */
+    /* width: 1394px; */
+    height: 82,81svh;    
+    margin-left:1.8vw;
+    margin-right: 1.8vw;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section_imagen2 img{
+    width: 100%;
+    height: 100%;
+}
+.texto2 p{
+    display: flex;
+    position: absolute;
+    color: var(--font-color-1);
+    /* width: 41.72vw;
+    height: 6.54vh; */
+    font-family:"Montserrat-SemiBold";
+    font-size: 3.9vw;
+    left: 5.94vw;
+    margin-top: 69.28vh;
+
+}  
+
+.section_imagen3{
+    display: flex;
+    /* margin-top: 5.86vh; */
+    /* width: 1394px; */
+    height: 82,81svh;    
+    margin-left:1.8vw;
+    margin-right: 1.8vw;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section_imagen3 img{
+    width: 100%;
+    height: 100%;
+}
+.texto3 p{
+    display: flex;
+    position: absolute;
+    color: var(--font-color-1);
+    /* width: 41.72vw;
+    height: 6.54vh; */
+    font-family:"Montserrat-SemiBold";
+    font-size: 3.9vw;
+    left: 5.94vw;
+    margin-top: 70.46vh;
+
+}  
+
+
 
 /************** version movil **********************/
 @media (max-width: 960px) {
