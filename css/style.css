@@ -99,17 +99,41 @@
 /* .section__icon img{
     background: violet; */
 
-/*************section two************/
+/*************section two of the three images************/
 
 .div_image-section{
-    padding: 20px;
     display: flex;
     flex-direction: column; /* Alinea los elementos hijos en una columna vertical */
-    align-items:center;
+    gap:2.73vh;
 }
 .section_imagen1{
-    
+    display: flex;
+    margin-top: 5.86vh;
+    /* width: 1394px; */
+    height: 82,81svh;    
+    margin-left:1.8vw;
+    margin-right: 1.8vw;
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.section_imagen1 img{
+    width: 100%;
+    height: 100%;
+}
+.texto1 p{
+    display: flex;
+    position: absolute;
+    color: var(--font-color-1);
+    /* width: 41.72vw;
+    height: 6.54vh; */
+    font-family:"Montserrat-SemiBold";
+    font-size: 3.9vw;
+    left: 5.94vw;
+    margin-top: 73.56vh;
+
+}
+
 
 /************** version movil **********************/
 @media (max-width: 960px) {
