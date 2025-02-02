@@ -190,6 +190,13 @@
 
 }  
 
+.txt4{
+    color: var(--font-color-1);
+    font-family:"Montserrat-Medium";
+    font-size: 3.52vw;
+    margin-left: 3.91vw;
+}
+
 
 
 /************** version movil **********************/
@@ -226,6 +233,7 @@
         height: 45px;
         object-fit: contain;
     }
+    
     
 }
 
