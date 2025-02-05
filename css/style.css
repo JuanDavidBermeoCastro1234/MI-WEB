@@ -383,13 +383,33 @@
         height: 45px;
         object-fit: contain;
     }
+    .texto1 p{
+        margin-top: 31.56vh;
+    }
+    .texto2 p{
+        margin-top: 30.28vh;
+
+    }
+    .texto3 p{
+        margin-top: 30.28vh;
+
+    }
+
+    .div_imagen-scrull{
+        height: 14.66vh;
+
+    }
+
+    .one_article-section {
+        height:40.23vh;
+    }
     
     
 }
 
 @media (max-width: 576px) {
     .header{
-        /* background: blue; */
+        /* background: blue;        */
         justify-content: normal;
     }
     .div__logo{
@@ -418,4 +438,25 @@
         padding-right: 15px;
         height: 95svh;
     }
+    .texto1 p{
+        margin-top: 25.56vh;
+    }
+    .texto2 p{
+        margin-top: 25.28vh;
+
+    }
+    .texto3 p{
+        margin-top: 25.28vh;
+
+    }
+
+    .div_imagen-scrull{
+        height: 14.66vh;
+
+    }
+
+    .one_article-section {
+        height:40.23vh;
+    }
+    
 }
