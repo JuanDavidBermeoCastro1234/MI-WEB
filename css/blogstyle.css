@@ -1,0 +1,48 @@
+@import url('variables.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 2px solid tomato;       
+}
+.header {
+    background: orange;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}   
+.div__logo {
+    /* background: blue; */
+    /* padding: 15px; */
+}
+.div__menu {
+    background: green;
+    /* padding: 15px; */
+}
+.ul__menu {
+    /* background: violet; */
+    /* padding: 15px; */
+    display: flex;
+    gap: 100px;
+    padding-right: 100px;
+    color: var(--font-color-1);
+}
+.ul__menu li{
+    list-style: none;
+    font-family: "Montserrat-SemiBold";
+}
+.ul__menu li a{
+    color: var(--font-color-1);
+    text-decoration: none;
+}
+.img_header{
+    display: flex ;
+    gap: 5px;
+    
+}
