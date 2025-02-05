@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato;        */
 
 }
 /********** header ******************/
@@ -207,15 +207,20 @@
     margin-top: 2.83vh;
     /* overflow: hidden; */
     overflow-y: scroll;
+    padding-bottom: 30px;
+    /* overflow: auto o  */
 
 }
 .one_article-section{
     /* right: 50px; */
     background: var(--color-gradient-3);
     width:30.08vw;
-    height:61.23vh;
-    margin-left: -80px;
+    height:80.23vh;
+    /* margin-left: -80px; */
     border-radius: 2.43vw;
+    /* overflow: hidden;3 */
+    box-shadow: 1vw 1vw 8px rgb(0, 0, 0);
+    margin-left: 2%;
 
 }
 .div_imagen-scrull{
@@ -274,50 +279,47 @@
 .two_article-section{
     background: var(--color-gradient-3);
     width:30.08vw;
-    height:61.23vh;
+    height:auto;
     margin-left: 10px;
     border-radius: 2.43vw;
+    box-shadow: 1vw 1vw 8px rgb(0, 0, 0);
+
 
 }
 
 .three_article-section{
     background: var(--color-gradient-3);
     width:30.08vw;
-    height:61.23vh;
+    height:auto;
     margin-left: 10px;
     border-radius: 2.43vw;
+    box-shadow: 1vw 1vw 8px rgb(0, 0, 0);
+
 
 }
 .four_article-section{
     background: var(--color-gradient-3);
     width:30.08vw;
-    height:61.23vh;
+    height:auto;
     margin-left: 10px;
     border-radius: 2.43vw;
+    box-shadow: 1vw 1vw 8px rgb(0, 0, 0);
+
 
 }
 .five_article-section{
     background: var(--color-gradient-3);
     width:30.08vw;
-    height:61.23vh;
+    height:auto;
     margin-left: 10px;
     border-radius: 2.43vw;
-
+    box-shadow: 1vw 1vw 8px rgb(0, 0, 0);
+    margin-right: 2%;
 }
-/**********/
-.Networks{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center; 
-    gap: 54px;
-    top: 18svh;
-    height: 18svh;
-}
-/***************carrusel ******************/
-
+/******ft****/
 .section_scrull::-webkit-scrollbar {
     height: 10px; /* Altura de la barra de desplazamiento */
+    width: 100%;
 }
 
 .section_scrull::-webkit-scrollbar-track {
@@ -333,6 +335,19 @@
 .section_scrull::-webkit-scrollbar-thumb:hover {
     background: radial-gradient(circle, rgb(50, 146, 76)0%,rgb(26, 71, 38)100%); /* Color del deslizador al pasar el mouse */
 }
+.footer{
+    background: #071917;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    gap: 54px;
+    /* top: 18svh;   */
+    height: 18svh;
+    cursor: pointer;
+}
+/***************carrusel ******************/
+
 
 /************** version movil **********************/
 @media (max-width: 960px) {
