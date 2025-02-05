@@ -200,15 +200,20 @@
 .section_scrull{
     display: flex;
     flex-direction: row;
+    height: auto;
+    left: 100px;
     gap:2.34vw;
     margin-top: 2.83vh;
-    /* overflow: hidden; */
+    overflow-y: scroll;
+
 }
 .one_article-section{
     background: var(--color-gradient-3);
     width:30.08vw;
     height:61.23vh;
     margin-left: 10px;
+    border-radius: 2.43vw;
+
 }
 .div_imagen-scrull{
     display: flex;
@@ -259,6 +264,8 @@
 .div_a-scrull a{
     color: var(--color-gradient-2);
     text-decoration: none;
+    cursor: pointer;
+
 }
 /*****/
 .two_article-section{
@@ -266,53 +273,62 @@
     width:30.08vw;
     height:61.23vh;
     margin-left: 10px;
+    border-radius: 2.43vw;
+
 }
-.div_imagen-scrull{
+
+.three_article-section{
+    background: var(--color-gradient-3);
+    width:30.08vw;
+    height:61.23vh;
+    margin-left: 10px;
+    border-radius: 2.43vw;
+
+}
+.four_article-section{
+    background: var(--color-gradient-3);
+    width:30.08vw;
+    height:61.23vh;
+    margin-left: 10px;
+    border-radius: 2.43vw;
+
+}
+.five_article-section{
+    background: var(--color-gradient-3);
+    width:30.08vw;
+    height:61.23vh;
+    margin-left: 10px;
+    border-radius: 2.43vw;
+
+}
+/**********/
+.Networks{
     display: flex;
-    width: 26.72vw;
-    height: 22.66vh;
-    margin-top:2.54vh ;
-    margin-left: 1.72vw;
+    position: relative;
+    justify-content: center;
+    align-items: center; 
+    gap: 54px;
+    top: 18svh;
+    height: 18svh;
 }
-.div_imagen-scrull img{
-    width: 100%;
-    height: 100%; 
+/***************carrusel ******************/
+
+.section_scrull::-webkit-scrollbar {
+    height: 10px; /* Altura de la barra de desplazamiento */
 }
-.div_h3-scrull h3{
-    margin-top: 2.34vh;
-    margin-bottom: 1.76vh;
-    margin-left: 1.95vw;
-    margin-right: 1.95vw;
-    color: var(--font-color-1);
-    font-family: "Montserrat-SemiBold";
-    font-size: 2.3vw;
+
+.section_scrull::-webkit-scrollbar-track {
+    background: #e5e5e500; /* Color del fondo de la barra */
+    border-radius: 4px; /* Bordes redondeados */
 }
-.div_p-scrull_p {
-    margin-left: 1.56vw;
-    margin-right: 1.56vw;
-    margin-bottom: 2.54vh;
-    font-family:"Montserrat-Regular" ;
-    color: var(--font-color-1);
-    font-size:1.44vw ;
+
+.section_scrull::-webkit-scrollbar-thumb {
+    background: #2a5b3425; /* Color del deslizador */
+    border-radius: 4px; /* Bordes redondeados */
 }
-.div_a-scrull {
-    display: flex;
-    margin-left: 9.38vw;
-    margin-right: 9.38vw;
-    width: 11.33vw;
-    height: 4.30vh;
-    font-family: "Montserrat-Regular";
-    font-size:1.56vw ;
-    justify-content: center; 
-    align-items: center;
-    color: var(--font-color-1);
-    border-radius: 2.34vh;
-    background: var(--color-gradient-4);
-    outline: 1px solid var(--color-1);
-}
-.div_a-scrull a{
-    color: var(--color-gradient-2);
-    text-decoration: none;
+
+.section_scrull::-webkit-scrollbar-thumb:hover {
+    background: radial-gradient(circle, rgb(50, 146, 76)0%,rgb(26, 71, 38)100%); /* Color del deslizador al pasar el mouse */
 }
 
 /************** version movil **********************/
