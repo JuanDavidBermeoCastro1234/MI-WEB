@@ -6,6 +6,7 @@
     --color-gradient-2: #071917;
     --color-gradient-3: #145E2A;
     --color-gradient-4: #D9D9D9;
+    --color-gradient-5:#145e2ac4;
     --banner-1: url(/storage/img/Rectangle1.png);
 }
 
@@ -22,4 +23,14 @@
 @font-face {
     font-family: "Montserrat-Regular";
     src: url(/storage/font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(../storage/font/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../storage/font/Montserrat-Bold.ttf);
 }
