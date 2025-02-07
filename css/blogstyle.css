@@ -132,13 +132,14 @@
     border-radius: 2vw;
     display: flex;
     flex-direction: column;
-    h1{
+    p{
         position: absolute;
         left: 2vw;
         top: 2.56vw;
         width: 40vw;
         font-size: 2vw;
         font-family: "Montserrat-Light";
+
     }
     h2{
         position: absolute;
@@ -148,14 +149,15 @@
         font-size: 2vw;
         font-family: "Montserrat-SemiBold";
     }
-    p{
+.p2{
         position: absolute;
         left: 2vw;
         top: 17vw;
         width: 40vw;
         font-size: 1.7vw;
         font-family: "Montserrat-Medium";
-    }
+        padding-left: 0.5vw;    
+}
     button{
         position: absolute;
         width: 15vw;
@@ -179,7 +181,7 @@
     left: 3.5vw ;
     font-family: "Montserrat-Medium";
     font-size: 1.5vw;
-    color: var(--color-1);
+    color: var(--font-color-2);
 }
 
 .section__first-row{
@@ -197,22 +199,24 @@
         height: 20vw;
         display: flex;
         align-self: center;
+        border-radius: 2vw;
     }
     div{
         width:30vw ;
         height: 42vw;
         display: flex;
         flex-direction: column;
-        border-radius: 2vw;
-        background-color: var(--color-4);
+        border-radius: 2vw; 
+        background-color: var(--color-gradient-3);
     }
     h1{
         position: absolute;
-        font-size: 1.8vw;
+        font-size: 1.9vw;
+        width:28.5vw ;
         top: 23vw;
         display: flex;
         align-self: center;
-        color: var(--color-1);
+        color: var(--font-color-2);
         font-family: "Montserrat-SemiBold";
     }
     p{
@@ -223,12 +227,12 @@
         font-size: 1.5vw;
         display: flex;
         align-self: center;
-        color: var(--color-1);
+        color: var(--font-color-2);
         font-family: "Montserrat-Regular";
     }
     button{
         position: absolute;
-        top: 36vw ;
+        top: 37.5vw ;
         width: 8.9vw;
         height: 2.7vw;
         font-size: 1.5vw;
@@ -237,8 +241,8 @@
         align-self: center;
         justify-content: center;
         align-items: center;
-        background-color:var(--color-1);
-        color: var(--color-3);
+        background-color:var(--color-gradient-4);
+        color: var(--color-gradient-2);
         font-family: "Montserrat-Regular";
         border-radius: 1.5vw;
         cursor: pointer;
@@ -260,6 +264,7 @@
         height: 20vw;
         display: flex;
         align-self: center;
+        border-radius: 2vw;
     }
     div{
         width:30vw ;
@@ -267,15 +272,16 @@
         display: flex;
         flex-direction: column;
         border-radius: 2vw;
-        background-color: var(--color-4);
+        background-color: var(--color-gradient-3);
     }
     h1{
         position: absolute;
-        font-size: 1.8vw;
+        font-size: 1.9vw;
         top: 23vw;
+        width:28.5vw ;
         display: flex;
         align-self: center;
-        color: var(--color-1);
+        color: var(--font-color-2);
         font-family: "Montserrat-SemiBold";
     }
     p{
@@ -286,12 +292,12 @@
         font-size: 1.5vw;
         display: flex;
         align-self: center;
-        color: var(--color-1);
+        color: var(--font-color-2);
         font-family: "Montserrat-Regular";
     }
     button{
         position: absolute;
-        top: 36vw ;
+        top: 37.5vw ;
         width: 8.9vw;
         height: 2.7vw;
         font-size: 1.5vw;
@@ -300,21 +306,27 @@
         align-self: center;
         justify-content: center;
         align-items: center;
-        background-color:var(--color-1);
-        color: var(--color-3);
+        background-color:var(--color-gradient-4);
+        color: var(--color-gradient-2);
         font-family: "Montserrat-Regular";
         border-radius: 1.5vw;
         cursor: pointer;
     }
 }
 
-.section__footer{
+.section__daily{
+    position: absolute;
     display: flex;
     flex-direction: column;
+    top: 157vw;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+    height: auto;
+
     h2{
         position: absolute;
-        display: flex;
-        top: 157vw;
+        /* display: flex; */
         color: var(--color-1);
         align-self: center;
         font-size: 2vw; 
@@ -323,7 +335,7 @@
     p{
         position: absolute;
         display: flex;
-        top: 162vw;
+        top: 7vw;
         align-self: center;
         color: var(--color-1);
         font-family: "Montserrat-Regular";
@@ -333,20 +345,24 @@
     }
     div{
         position: absolute;
-        top: 170vw;
+        top: 8vw;
         display: flex;
+        flex-direction: row;
         align-self: center;
         width: auto;
         height: auto;
         gap: 3vw;
+        cursor: pointer;
         img{
-            width: 2.5vw;
-            cursor: pointer;
+            width:  2.5vw;   
+            border-radius: 100%;
+            left: 100vw;
+
         }
     }
 }
 
-.section__rights{
+.section__footer{
     position: absolute;
     top: 175vw;
     left: 1vw;
